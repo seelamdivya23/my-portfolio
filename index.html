@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Seelam Divya Kumari | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="logo"> Seelam Divya Kumari</div>
+    <nav class="nav-menu">
+      <ul class="nav-list grid">
+        <li><a href="#Home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#Qualification" class="nav-link">Qualification</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button id="darkModeToggle" class="mode-toggle" title="Toggle Dark Mode">🌙</button>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="hero-container">
+      <div class="hero-image">
+        <img src="images\my-photo.png" alt="Profile Image" />
+      </div>
+      <div class="hero-text">
+        <h2>Hello, it's me <span class="highlight">Divya</span></h2>
+        <h3> And I'm a <span id="typing-text"></span><span class="cursor">|</span></h3>
+
+        <!-- Social Icons -->
+        <div class="social-icons">
+          <a href="https://github.com/your-github-username" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/seelam-divya/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="mailto:divyakumari.seelam@gmail.com"><i class="fas fa-envelope"></i></a>
+        </div>
+
+        <!-- Resume Button -->
+        <a href="resume\resume.pdf" download class="resume-btn">Download Resume</a>
+        <!-- Contact Button -->
+        <a href="#contact" class="resume-btn">Contact Me</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+</body>
+</section>
+<section id="about" class="about-section">
+    <h2>About <span>Me</span></h2>
+    <div class="about-container no-image">
+        <div class="about-text">
+            <h3>Data Science Enthusiast</h3>
+            <p class="about-short">
+                I am a passionate and results-driven professional with strong expertise in 
+                <span class="highlight">Data Science</span>, <span class="highlight">Python</span>, 
+                and <span class="highlight">Machine Learning</span>.  
+                I have hands-on experience in building intelligent models and applying 
+                <span class="highlight">NLP</span> techniques.
+            </p>
+            <p class="about-more">
+                I specialize in working with large datasets using <span class="highlight">SQL</span> and 
+                transforming raw data into actionable insights. My projects involve predictive analytics, 
+                automation, and data visualization to solve real-world problems.  
+                I aim to merge my technical skills with creativity to develop impactful solutions.
+            </p>
+            <button id="readMoreBtn" class="read-more-btn">Read More</button>
+        </div>
+    </div>
+</section>
+<!-- Qualification Section -->
+<section id="Qualification" class="qualification-section">
+  <h2>My <span>Education</span></h2>
+  <div class="qualification-container">
+
+    <div class="qualification-item">
+      <h3>Master of Computer Applications (MCA)</h3>
+      <span class="qualification-institute">University PG College, OU, Secunderabad</span>
+      <span class="qualification-duration">2022 - 2024 | CGPA: <strong>8.59</strong></span>
+      <p>Specialized in advanced computing, data science, and software development. Focused on real-world projects and research applications.</p>
+    </div>
+
+    <div class="qualification-item">
+      <h3>B.Sc. in Computer Science</h3>
+      <span class="qualification-institute">Hindu Degree College for Women, Sanathnagar</span>
+      <span class="qualification-duration">2019 - 2022 | CGPA: <strong>9.23</strong></span>
+      <p>Studied core computer science subjects including programming, database management, and networking. Built foundational academic projects.</p>
+    </div>
+
+    <div class="qualification-item">
+      <h3>Intermediate (MPC)</h3>
+      <span class="qualification-institute">Sri Chaitanya Junior College</span>
+      <span class="qualification-duration">2017 - 2019 | Marks: <strong>913/1000</strong></span>
+      <p>Focused on Mathematics, Physics, and Chemistry, building strong analytical and problem-solving skills.</p>
+    </div>
+
+    <div class="qualification-item">
+      <h3>SSC</h3>
+      <span class="qualification-institute">Government High School, Vengalrao Nagar, Hyderabad</span>
+      <span class="qualification-duration">2017 | GPA: <strong>8.7</strong></span>
+      <p>Achieved academic excellence and actively participated in extracurricular activities.</p>
+    </div>
+
+  </div>
+</section>
+<section id="skills" class="skills-section"></section>
+<section class="skills-section">
+    <h2 class="skills-title">My Skills</h2>
+
+    <div class="skills-grid">
+        <div class="skill-card">
+            <div class="skill-icon">💻</div>
+            <div class="skill-name">Python</div>
+            <div class="skill-details">OOPs, Data Structures, File Handling</div>
+        </div>
+        <div class="skill-card">
+            <div class="skill-icon">🐍</div>
+            <div class="skill-name">Python Libraries</div>
+            <div class="skill-details">Pandas, NumPy, Matplotlib, Seaborn</div>
+        </div>
+        <div class="skill-card">
+            <div class="skill-icon">🗄️</div>
+            <div class="skill-name">SQL</div>
+            <div class="skill-details">Queries, Joins, Subqueries</div>
+        </div>
+        <div class="skill-card">
+            <div class="skill-icon">⚙️</div>
+            <div class="skill-name">Data Analysis</div>
+            <div class="skill-details">EDA, Data Cleaning, Visualization</div>
+        </div>
+        <div class="skill-card">
+            <div class="skill-icon">🤖</div>
+            <div class="skill-name">Machine Learning</div>
+            <div class="skill-details">Scikit-Learn, XGBoost,Ensemble Learning,GridsearchCV,Cross Validation</div>
+        </div>
+        <div class="skill-card">
+            <div class="skill-icon">📈</div>
+            <div class="skill-name">Deep Learning</div>
+            <div class="skill-details">TensorFlow, Keras,ANN,CNN,LSTM,Transfer Learning,Transformers</div>
+        </div>
+        <div class="skill-card">
+            <div class="skill-icon">🌐</div>
+            <div class="skill-name">Web Development</div>
+            <div class="skill-details">Flask, HTML, CSS, JS</div>
+        </div>
+        <div class="skill-card">
+            <div class="skill-icon">📊</div>
+            <div class="skill-name">Data Visualization</div>
+            <div class="skill-details">Plotly, Powerbi</div>
+        </div>
+    </div>
+</section>
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="projects-container">
+
+    <!-- Project 1 -->
+     <div class="project-card">
+      <video controls>
+        <source src="videos\Diabetes -Prediction.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <h3>Diabetes Prediction System</h3>
+      <p>Machine learning classification system using multiple algorithms, SMOTE balancing, and GridSearchCV tuning.</p>
+      <a href="https://github.com/seelamdivya23/Diabetes-Detector.git" target="_blank" class="btn">Check on GitHub</a>
+    </div>
+
+        <!-- Project 2-->
+    <div class="project-card">
+      <video controls>
+        <source src="videos\Titanic Survival Prediction.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <h3>Titanic Survival Prediction</h3>
+      <p>Machine learning classification project predicting passenger survival on the Titanic dataset using feature engineering and ensemble models.</p>
+      <a href="https://github.com/seelamdivya23/Titanic-survival-predictor.git" target="_blank" class="btn">Check on GitHub</a>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="project-card">
+      <video controls>
+        <source src="videos\women safety.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <h3>Analysis of Women Safety in Indian Cities</h3>
+      <p>Data science project analyzing women safety using Twitter data, NLP preprocessing, and machine learning-based sentiment analysis.</p>
+      <a href="https://github.com/seelamdivya23/Women-saftey-analysis-tweets.git" target="_blank" class="btn">Check on GitHub</a>
+    </div>
+
+    <!-- Project 4 -->
+    <div class="project-card">
+      <video controls>
+        <source src="videos\Cats vs Dogs Classifier.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <h3>Cats vs Dogs Classifier</h3>
+      <p>A deep learning model using CNN and VGGNet18 to classify images as Cats or Dogs, deployed with Flask.</p>
+      <a href="https://github.com/seelamdivya23/Cats_vs_dogs_classification.git" target="_blank" class="btn">Check on GitHub</a>
+    </div>
+
+     <!-- Project 5 -->
+    <div class="project-card">
+      <video controls>
+        <source src="videos\Flower Recognition.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <h3>Flower Recognition App</h3>
+      <p>Transfer learning project using MobileNetV2 to recognize flower species from images, with a beautiful UI.</p>
+      <a href="https://github.com/seelamdivya23/Flowers-Recognization.git" target="_blank" class="btn">Check on GitHub</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- Certifications Section -->
+<section id="certifications" class="certifications-section">
+  <h2>My <span>Certifications</span></h2>
+  <div class="certifications-container">
+
+    <!-- Certification 1 -->
+<div class="certification-card">
+  <h3>Python Programming - Internshala</h3>
+  <p>Successfully completed Python programming training covering core concepts, data structures, file handling, and mini-projects to strengthen coding skills.</p>
+  <a href="images\Programming with Python Training - Certificate of Completion.pdf" target="_blank" class="btn">View Certificate</a>
+</div>
+
+<!-- Certification 2 -->
+<div class="certification-card">
+  <h3>Data Visualization - Tata Forage</h3>
+  <p>Completed a virtual experience program on data visualization, learning how to analyze datasets, create insightful charts, and present findings effectively using real-world case studies.</p>
+  <a href="images\data visualization certificate.pdf" target="_blank" class="btn">View Certificate</a>
+</div>
+
+<!-- Certification 3 -->
+<div class="certification-card">
+  <h3>Introduction to Generative AI - Simplilearn</h3>
+  <p>Learned the fundamentals of Generative AI, including large language models, prompt engineering, and real-world applications of AI-driven tools.</p>
+  <a href="images\Introduction to Genrative AI-certificate.pdf" target="_blank" class="btn">View Certificate</a>
+</div>
+<!-- Certification 4  -->
+    <div class="certification-card">
+      <h3>Web Development Internship - The Website Makers</h3>
+      <p>Completed a hands-on internship focusing on front-end and back-end web development, building responsive websites and gaining practical project experience.</p>
+      <a href="images\webdevelopement-certificate.pdf" target="_blank" class="btn">View Certificate</a>
+    </div>
+    <!-- Contact Section -->
+<section id="contact" class="contact">
+  <h2>Contact <span> Me</span></h2>
+  <div class="contact-container">
+
+    <!-- Contact Info -->
+    <div class="contact-info">
+      <p><i class="fas fa-envelope"></i> 
+        <strong>Email:</strong> <a href="mailto:divyakumari.seelam@gmail.com">divyakumari.seelam@gmail.com</a>
+      </p>
+      <p><i class="fas fa-phone"></i> 
+        <strong>Phone:</strong> <a href="tel:+919502566698">+91 9502566698</a>
+      </p>
+      <p><i class="fab fa-linkedin"></i> 
+        <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/seelam-divya/" target="_blank">https://www.linkedin.com/in/seelam-divya</a>
+      </p>
+      <p><i class="fab fa-github"></i> 
+        <strong>GitHub:</strong> <a href="https://github.com/seelamdivya23" target="_blank">github.com/seelamdivya23</a>
+      </p>
+    </div>
+
+    <!-- Contact Form -->
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="footer-container">
+    <p>&copy; 2025 Seelam Divya Kumari | All Rights Reserved</p>
+  </div>
+</footer>
+</html>
+
+
+
+
+
+
+
