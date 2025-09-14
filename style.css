@@ -692,6 +692,7 @@ body {
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.3);
   min-height: 350px;
+  
 }
 
 .contact-form input,
@@ -743,4 +744,23 @@ body {
   .contact-info, .contact-form {
     flex: 1 1 100%;
   }
+}
+
+/* Footer */
+.footer {
+  background: #111827;
+  color: #fff;
+  padding: 20px;
+  font-size: 0.95rem;
+
+  display: flex;               /* enable flexbox */
+  justify-content: center;     /* center horizontally */
+  align-items: center;         /* center vertically */
+  text-align: center;          /* ensure text inside is centered */
+  width: 100%;                 /* span full width */
+}
+
+.dark-mode .footer {
+  background: #0d1b2a;
+  color: #ddd;
 }
