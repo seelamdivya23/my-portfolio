@@ -764,3 +764,103 @@ body {
   background: #0d1b2a;
   color: #ddd;
 }
+
+/* ============================= */
+/* 📱 Mobile Responsiveness Fix */
+/* ============================= */
+
+/* Header - Stack logo and nav on small screens */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    padding: 15px 20px;
+    text-align: center;
+  }
+
+  .logo {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+  }
+
+  .nav-list.grid {
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 0;
+  }
+}
+
+/* Hero Section - Stack image & text */
+@media (max-width: 768px) {
+  .hero-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-image img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .hero-text h2 {
+    font-size: 1.6rem;
+  }
+
+  .hero-text h3 {
+    font-size: 1.2rem;
+  }
+}
+
+/* About Section - stack content */
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 25px;
+    padding: 0 20px;
+  }
+
+  .about-text {
+    text-align: center;
+  }
+}
+
+/* Skills grid - one column */
+@media (max-width: 768px) {
+  .skills-grid {
+    grid-template-columns: 1fr;
+    padding: 0 20px;
+  }
+}
+
+/* Projects grid - one column */
+@media (max-width: 768px) {
+  .projects-container {
+    grid-template-columns: 1fr;
+    padding: 0 20px;
+  }
+}
+
+/* Certifications grid - one column */
+@media (max-width: 768px) {
+  .certifications-container {
+    grid-template-columns: 1fr;
+    padding: 0 20px;
+  }
+}
+
+/* Contact Section - stack info & form */
+@media (max-width: 768px) {
+  .contact-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Footer - stack neatly */
+@media (max-width: 480px) {
+  .footer {
+    font-size: 0.85rem;
+    padding: 15px;
+    flex-direction: column;
+  }
+}
+
